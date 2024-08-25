@@ -1,0 +1,224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08149e2eadafd7d4195165dc19a5b147, type: 3}
+  m_Name: Default Biomes
+  m_EditorClassIdentifier: 
+  biomeSettings:
+    shoreOffset: 5
+    shoreFade: 5.3
+    oceanOvertakeFade: 9.1
+    temperateZoneScale: 0.877
+    Biome_Temperate:
+      type: 1
+      isRigid: 1
+      offset: {x: 5462, y: 9377, z: 875}
+      frequency: 1.0354805
+      octaves: 1
+      strength: 0.8444581
+      persistence: 1
+      lacunarity: 0.5
+    Biome_Fertility:
+      type: 1
+      isRigid: 1
+      offset: {x: -9405, y: -1447, z: 3090}
+      frequency: 1.7974701
+      octaves: 1
+      strength: 0.8890177
+      persistence: 1
+      lacunarity: 0.5
+  OceanBiome:
+    Name: 
+    TemperateMinMax: {x: 0, y: 0}
+    FertilityMinMax: {x: 0, y: 0}
+    Textures:
+      Albedo: {fileID: 2800000, guid: 6f71fbb013381db4bb78e6d59ddb1b9b, type: 3}
+      Normal: {fileID: 2800000, guid: 65f20b9071dc6d940a8ca40331d556f7, type: 3}
+      Occlusion: {fileID: 2800000, guid: e73541d8064b2a348b9682198d10f2ed, type: 3}
+      Metallic: {fileID: 2800000, guid: 7a0e85a29815b734bb3082678d06853d, type: 3}
+      Smoothness: {fileID: 2800000, guid: 06e741348f141804faa9421cd9aa2c27, type: 3}
+    TerrainHeight:
+      type: 0
+      isRigid: 0
+      offset: {x: 8601.799, y: -3014.585, z: 2732.1572}
+      frequency: 2.7907562
+      octaves: 2
+      strength: 20.455408
+      persistence: 1
+      lacunarity: 0.5
+    TerrainDetail:
+      type: 0
+      isRigid: 0
+      offset: {x: 9084.941, y: -8267.086, z: -9521.816}
+      frequency: 3.0486467
+      octaves: 2
+      strength: 10.173524
+      persistence: 1
+      lacunarity: 0.5
+    MountainHeight:
+      type: 0
+      isRigid: 1
+      offset: {x: -3106.488, y: 3795.483, z: -4860.3477}
+      frequency: 3.8204231
+      octaves: 2
+      strength: 7.127926
+      persistence: 1
+      lacunarity: 0.5
+    MountainDetail:
+      type: 0
+      isRigid: 1
+      offset: {x: 1730.5938, y: 1174.7441, z: 4662.2705}
+      frequency: 12.431878
+      octaves: 2
+      strength: 3.9412494
+      persistence: 1
+      lacunarity: 0.5
+  BiomeList:
+  - Name: Dirt
+    TemperateMinMax: {x: 0.25, y: 1}
+    FertilityMinMax: {x: 0.25, y: 0.75}
+    Textures:
+      Albedo: {fileID: 2800000, guid: 8a3ef1722a8fd3a4c8353e18116e7a19, type: 3}
+      Normal: {fileID: 2800000, guid: 2a6a7e98a8983324e8aeca94a705844e, type: 3}
+      Occlusion: {fileID: 2800000, guid: 6001aa115ad4e72428b131a9024547b4, type: 3}
+      Metallic: {fileID: 2800000, guid: 1ec47b3300477f040b5d59f8fc7497dc, type: 3}
+      Smoothness: {fileID: 2800000, guid: 813750b3d9b9c744097ac861de79f2dc, type: 3}
+    TerrainHeight:
+      type: 0
+      isRigid: 0
+      offset: {x: -6702.9067, y: -2211.6484, z: -5742.7617}
+      frequency: 6.6705446
+      octaves: 2
+      strength: 19.436916
+      persistence: 1
+      lacunarity: 0.5
+    TerrainDetail:
+      type: 0
+      isRigid: 0
+      offset: {x: -5921.824, y: -6681.1304, z: 1968.6543}
+      frequency: 5.61915
+      octaves: 2
+      strength: 11.14509
+      persistence: 1
+      lacunarity: 0.5
+    MountainHeight:
+      type: 0
+      isRigid: 1
+      offset: {x: -7527.5664, y: -4873.923, z: 5957.9443}
+      frequency: 3.068271
+      octaves: 2
+      strength: 10.853916
+      persistence: 1
+      lacunarity: 0.5
+    MountainDetail:
+      type: 0
+      isRigid: 1
+      offset: {x: -1675.9355, y: 9682.799, z: 498.77246}
+      frequency: 16.376099
+      octaves: 2
+      strength: 2.7635014
+      persistence: 1
+      lacunarity: 0.5
+  - Name: Grass
+    TemperateMinMax: {x: 0.5, y: 1}
+    FertilityMinMax: {x: 0.75, y: 1}
+    Textures:
+      Albedo: {fileID: 2800000, guid: b500db8fa0ef7a748a05edd476f8792c, type: 3}
+      Normal: {fileID: 2800000, guid: 94f1b3e664544014b883305acee2bff8, type: 3}
+      Occlusion: {fileID: 2800000, guid: b0f89689d918fce4ca715e2d2f50bb44, type: 3}
+      Metallic: {fileID: 2800000, guid: 75aa83e701cf56948b1bf72f7e128920, type: 3}
+      Smoothness: {fileID: 2800000, guid: 1c6ef37185037f6449d46a00eae8d818, type: 3}
+    TerrainHeight:
+      type: 0
+      isRigid: 0
+      offset: {x: -6920.953, y: 7547.8047, z: -4696.95}
+      frequency: 1.7547776
+      octaves: 2
+      strength: 21.9211
+      persistence: 1
+      lacunarity: 0.5
+    TerrainDetail:
+      type: 0
+      isRigid: 0
+      offset: {x: -8011.551, y: -3460.8018, z: 5688.133}
+      frequency: 3.5961704
+      octaves: 2
+      strength: 9.671154
+      persistence: 1
+      lacunarity: 0.5
+    MountainHeight:
+      type: 0
+      isRigid: 1
+      offset: {x: -5331.9434, y: -4808.2695, z: -1277.8623}
+      frequency: 2.792688
+      octaves: 2
+      strength: 9.52206
+      persistence: 1
+      lacunarity: 0.5
+    MountainDetail:
+      type: 0
+      isRigid: 1
+      offset: {x: 1682.2256, y: -8055.789, z: 1584.3691}
+      frequency: 20.134579
+      octaves: 2
+      strength: 4.016081
+      persistence: 1
+      lacunarity: 0.5
+  - Name: Gravel
+    TemperateMinMax: {x: 0, y: 0.5}
+    FertilityMinMax: {x: 0.75, y: 1}
+    Textures:
+      Albedo: {fileID: 2800000, guid: f4ed305362918144e97c242b8301811e, type: 3}
+      Normal: {fileID: 2800000, guid: df03f46979b9391479c23bf6daef5213, type: 3}
+      Occlusion: {fileID: 2800000, guid: 74968bcc596691b4fab1a164c84c1d5a, type: 3}
+      Metallic: {fileID: 2800000, guid: b008c37730af1ae4fa7faad8c6dffbca, type: 3}
+      Smoothness: {fileID: 2800000, guid: 78e0f021c5e92c64d967315093e39104, type: 3}
+    TerrainHeight:
+      type: 0
+      isRigid: 0
+      offset: {x: 4134.047, y: -4423.209, z: -3280.8838}
+      frequency: 2.1877518
+      octaves: 2
+      strength: 21.522022
+      persistence: 1
+      lacunarity: 0.5
+    TerrainDetail:
+      type: 0
+      isRigid: 0
+      offset: {x: -3013.5645, y: -4014.7004, z: 1399.2012}
+      frequency: 4.644094
+      octaves: 2
+      strength: 10.1820545
+      persistence: 1
+      lacunarity: 0.5
+    MountainHeight:
+      type: 0
+      isRigid: 1
+      offset: {x: -5907.757, y: 1743.4707, z: -430.7334}
+      frequency: 6.1062865
+      octaves: 2
+      strength: 7.2221513
+      persistence: 1
+      lacunarity: 0.5
+    MountainDetail:
+      type: 0
+      isRigid: 1
+      offset: {x: 1054.6934, y: -7970.576, z: 7543.5425}
+      frequency: 5.23983
+      octaves: 2
+      strength: 1.352987
+      persistence: 1
+      lacunarity: 0.5
+  biomes_albArr: {fileID: 18700000, guid: 2eaed3ca915749943ae5d1734e62e819, type: 2}
+  biomes_normArr: {fileID: 18700000, guid: 0d4506851722ea5488bfbe3006c46643, type: 2}
+  biomes_occArr: {fileID: 18700000, guid: 11213dd537f08cc4997356500a907862, type: 2}
+  biomes_metallicArr: {fileID: 18700000, guid: 0f1c8333271c461439840e1522e9aeeb, type: 2}
+  biomes_smoothArr: {fileID: 18700000, guid: 850c53e414a70f541b81c228c4ef0e79, type: 2}

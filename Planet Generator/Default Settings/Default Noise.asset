@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8c6d6c9993f33f4fb44632a249ac696, type: 3}
+  m_Name: Default Noise
+  m_EditorClassIdentifier: 
+  TerrainHeight:
+    offset: {x: 0, y: 0, z: 0}
+    frequency: 1.25
+    octaves: 4
+    redistribution: 5.6
+    strength: 1.25
+    persistence: 0.75
+    lacunarity: 0.25
+  TerrainDetail:
+    offset: {x: 0, y: 0, z: 0}
+    frequency: 2.25
+    octaves: 4
+    redistribution: 2.56
+    strength: 0.75
+    persistence: 0.65
+    lacunarity: 0.15
+  TerrainHeightScale: 5
+  CaveBase:
+    offset: {x: 0, y: 0, z: 0}
+    frequency: 0
+    octaves: 0
+    redistribution: 0
+    strength: 0
+    persistence: 0
+    lacunarity: 0
+  CaveDetail:
+    offset: {x: 0, y: 0, z: 0}
+    frequency: 0
+    octaves: 0
+    redistribution: 0
+    strength: 0
+    persistence: 0
+    lacunarity: 0
+  CaveThreshold: 0
+  DistanceFalloff: 0
