@@ -1,8 +1,10 @@
 # Procedural Planet Generator for Unity HDRP with tessellated terrain and water
 A procedural planet generator for the Unity game engine which utilizes the burst compiler, jobs system, and a quad-tree LOD system for increased efficiency.
-![Image1]("/Images/Image1.png")
-![Image2]("/Images/Image2.png")
-![Image3]("/Images/Image3.png")
+
+![Image1](/Images/Image1.png)
+![Image2](/Images/Image2.png)
+![Image3](/Images/Image3.png)
+
 Known Issues:
 - Seams between water tiles.
 - Some triangles of the terrain mesh appear to be missing.
